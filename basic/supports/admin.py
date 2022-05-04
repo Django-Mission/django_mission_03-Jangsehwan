@@ -4,7 +4,7 @@ from supports.models import Inquiry, Answer, Faq
 
 @admin.register(Faq)
 class FaqModelAdmin(admin.ModelAdmin):
-    list_display = ('title', 'category', 'updated_by')
+    list_display = ('title', 'category', 'updated_at')
     list_filter = ('category',)
     search_fields = ('title',)
 

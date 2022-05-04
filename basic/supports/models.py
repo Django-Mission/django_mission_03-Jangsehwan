@@ -1,9 +1,8 @@
 from django.db import models
 
-from email.mime import image
-from statistics import mode
-from tabnanny import verbose
-from tkinter import CASCADE
+# from email.mime import image
+# from tabnanny import verbose
+# from tkinter import CASCADE
 from tkinter.tix import Tree
 from xmlrpc.client import TRANSPORT_ERROR
 from django.contrib.auth import get_user_model
