@@ -16,7 +16,6 @@ class UserCreateForm(UserBaseForm):
         fields = ['username', 'email', 'phone', 'password']
 
 
-# 장고에서 만들어놓은 UserCreationForm을 가져다쓰는걸 추천
 class SignUpForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
         model = get_user_model()

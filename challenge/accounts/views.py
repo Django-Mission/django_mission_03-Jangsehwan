@@ -4,7 +4,6 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 
 from .forms import UserCreateForm, SignUpForm, LoginFrom
 
-# from django.contrib.auth.models import User
 
 
 def signup_view(request):

@@ -30,4 +30,4 @@ class PostModelAdmin(admin.ModelAdmin):
             item.save()
 
 
-# admin.site.register(Comment)
+

@@ -1,4 +1,3 @@
-from re import T
 from django.contrib import admin
 from .models import Inquiry, Answer, Faq
 from django.contrib.auth import get_user_model
